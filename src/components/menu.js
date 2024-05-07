@@ -25,7 +25,7 @@ class Menu extends Component{
         return(
         <>
             <div className="container">
-                <h1>Quale gita vuoi fare?</h1>
+                <h1>Quale gitaasdads vuoi fare?</h1>
                 <hr/>
                 <div className="row">
                     {this.state.cards.map(card => (
