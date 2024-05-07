@@ -7,6 +7,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 
 import Contatti from './components/contatti';
+import Lago from './components/lago';
 
 const router = createBrowserRouter([
   {
@@ -14,8 +15,24 @@ const router = createBrowserRouter([
     element:<App></App>
   },
   {
-      path:"/contatti",
-      element:<Contatti></Contatti>
+    path:"/0",
+    element:<Lago></Lago>
+  },
+  {
+    path:"/1",
+    element:<Lago></Lago>
+  },
+  {
+    path:"/2",
+    element:<Lago></Lago>
+  },
+  {
+    path:"/3",
+    element:<Lago></Lago>
+  },
+  {
+    path:"/contatti",
+    element:<Contatti></Contatti>
   }
 ]);
 
